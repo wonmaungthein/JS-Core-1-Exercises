@@ -11,7 +11,7 @@ To test that it was installed and running properly, go to your terminal and run 
 You should get the node version printed on your terminal, for example, `v7.3.0`
 
 
-2. Fork and Clone this repo
+2. Fork and Download this repo
 
 3. Once you have the repo locally, go to the folder on your terminal and run `node main.js`
 
