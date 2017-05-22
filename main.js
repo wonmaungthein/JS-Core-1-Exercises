@@ -5,4 +5,15 @@
       node class-exercises.js
 */
 
-console.log('Hello World');
+//This is my first program
+/* what ever
+doing
+try*/
+console.log('Mun Ga Lar Bar');
+console.log('Mun Ga Lar Bar မဂၤလာပါ');
+console.log("What is your name?");
+console.log("How may I help you?");
+console.log("We are enjoying learning coding.");
+console.log(typeof "What is the challenge?")
+
+console.log("Hello my friend.");
