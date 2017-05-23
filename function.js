@@ -21,9 +21,6 @@ function aboutMe(name,age,occupation,place) {
 aboutMe("Won Maung Thein", 33, "student", "Edinburgh");
 
 
-myClass(students,variety,)
-
-
 // myName();
 
 // for (var i=1  ; i<= 3; i=i+1) {
