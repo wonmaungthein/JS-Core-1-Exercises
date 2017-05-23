@@ -5,35 +5,6 @@
 // console.log("Famous Writers");
 
 // "Hi, my name is {firstName} {lastName}. I am {age} years old, and work as a {occupation}."
-
-
-if (alive === true) {
-    console.log(alive);
-}
-else {
-  console.log(notAlive);
-}
-
-
-alive ("firstName,lastName,age,occupation") {
-   console.log("Hi, my name is " + firstName + lastName . 
-    "I am " + age + "years old, and work as a " + occupation. );
-} 
-
-alive("Zadie","Smith",41,"writer",)
-alive( "bell","hooks",64,"writer",)
-
-
-notAlive ("firstName,lastName,age,occupation") {
-   console.log("Hi, my name is " + firstName + lastName . 
-    "I am " + age + "years old, and work as a " + occupation. );
-}
-
-notAlive( "Virginia", "Woolf","59","writer")
-notAlive( "Jane", "Austen","41","writer")
-
-
-
 // [
 //   {
 //     firstName: "Zadie",
@@ -50,34 +21,6 @@ notAlive( "Jane", "Austen","41","writer")
 //     alive: true
 //   },
 // ]
-
-
-
-// if (alive === true) {
-//     console.log("Hi, my name is " + firstName + lastName . 
-//     "I am " + age + "years old, and work as a " + occupation. );
-// }
-// else {
-//   console.log("Hi, my name is " + firstName + lastName . 
-//     "I am " + age + "years old, and work as a " + occupation. );
-// }
-
-
-// if (iAmHungry === true) {
-//     console.log("I am so hungry. Can I have my lunch, please?");
-// }
-// else {
-//     console.log("I am not hungry. Thank you.");
-// }
-
-
-
-
-
-
-// }
-// // if (alive === true);
-// // print 
 
 // // Here is the array:
 
@@ -115,5 +58,3 @@ notAlive( "Jane", "Austen","41","writer")
 // If you want an extra challenge, only `console.log()` the writers that are alive.
 // */
 
-
-// console.log("Famous Writers");
