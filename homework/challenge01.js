@@ -30,6 +30,8 @@ notAlive ("firstName,lastName,age,occupation") {
 }
 
 notAlive( "Virginia", "Woolf","59","writer")
+notAlive( "Jane", "Austen","41","writer")
+
 
 
 // [

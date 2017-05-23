@@ -1,26 +1,20 @@
+
 console.log("Famous Writers");
+function alive(firstName,lastName,age,occupation) {
+    console.log("Hi, my name is " + firstName + lastName + "." 
+    + "I am " + age + " years old, and work as a " + occupation + ".");
+}
+    alive("Zadie","Smith",41,"writer");
+    alive( "bell","hooks",64,"writer");
 
-"Hi, my name is {firstName} {lastName}. I am {age} years old, and work as a {occupation}."
+function notAlive(firstName,lastName,age,occupation) {
+    console.log("Hi, my name is " + firstName + lastName + "." 
+    + "I am " + age + " years old, and work as a " + occupation + ".");
+}
+    notAlive( "Virginia", "Woolf",59,"writer");
+    notAlive( "Jane", "Austen",41,"writer");
 
-console.log("Hi, my name is {firstName} {lastName}. I am {age} years old, and work as a {occupation}."
-)
+console.log 
+alive("Zadie","Smith",41,"writer");
+alive( "bell","hooks",64,"writer");
 
-alive ("firstName","lastName","age","occupation"); {
-   console.log("Hi, my name is " + firstName + lastName . 
-
-alive("Zadie","Smith",41,"writer",);
-alive( "bell","hooks",64,"writer",);
-
-// function 
-//     "I am " + age + "years old, and work as a " + occupation. );
-// } 
-
-
-// aboutMe("Hi, my name is {firstName} {lastName}. I am {age} years old, and work as a {occupation}."
-// );
-
-// function add(i,p,w,r) {
-// //     console.log (i + w);
-// // }
-// // add (2,3,8,9);
-// // add (2,3,9,9);
