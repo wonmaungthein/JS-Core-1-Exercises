@@ -43,3 +43,6 @@ console.log("I ate "  + number +  " " + fruits + " every day.");
 
 
 //if ()
+
+console.log(8);
+console.log(8+3);

@@ -14,7 +14,12 @@ function notAlive(firstName,lastName,age,occupation) {
     notAlive( "Virginia", "Woolf",59,"writer");
     notAlive( "Jane", "Austen",41,"writer");
 
-console.log 
-alive("Zadie","Smith",41,"writer");
-alive( "bell","hooks",64,"writer");
 
+var alive = true;
+
+if (alive === true) {
+    
+console.log 
+("Zadie","Smith",41,"writer");
+( "bell","hooks",64,"writer");
+}
