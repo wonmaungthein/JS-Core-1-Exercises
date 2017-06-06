@@ -29,7 +29,7 @@ for (i=10; i > 0; i--) {
     console.log (i);
 }
 
-var i = 
+var i = 0;
 for (var i=1; i <= 100; i++) {
   console.log(i);
 }

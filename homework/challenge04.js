@@ -8,3 +8,6 @@ shortcut("goodbye")  // --> "gdby"
 shortcut("nodegirls")  // --> "nd grls"
 shortcut('how are you today?') // --> "hw r y tdy?"
 */
+
+var greeting = ("goodbye") 
+console.log(greeting.pop);

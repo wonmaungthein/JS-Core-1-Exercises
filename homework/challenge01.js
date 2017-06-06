@@ -69,9 +69,9 @@ var writers = [
 ];
 
 // This is for loop and printing only alive. 
-for (i=0; i<writers.length; i++) {
-    if (writers[i].alive === true){
-    console.log(" Hi, my name is " + writers[i].firstName + " " + writers[i].lastName + ". I am " + writers[i].age 
-+ " years old, and work as a " + writers[i].occupation + ".");
-    }
+for (i = 0; i < writers.length; i++) {
+  if (writers[i].alive === true) {
+    console.log(" Hi, my name is " + writers[i].firstName + " " + writers[i].lastName + ". I am " + writers[i].age
+      + " years old, and work as a " + writers[i].occupation + ".");
+  }
 }
