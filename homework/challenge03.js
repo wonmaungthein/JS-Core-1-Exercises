@@ -24,7 +24,7 @@ function findNeedle(haystack) {
         }
     }
     return result;
-};
+}
 
 var myHayStack = ['hay', 'rabbit', 'neppedle', 'uuiooo', 'hat'];
 console.log(findNeedle(myHayStack));

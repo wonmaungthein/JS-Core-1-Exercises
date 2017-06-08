@@ -21,30 +21,47 @@ stringy(5) // --> '10101'
 ```
 The size will always be positive and will only use whole numbers.
 */
-
+var number = 5;
 
 function stringy(number) {
-    var result = "";
-    for (var i = 0; i < number; i++) {
-        if (i % 2 === 0) {
-            result += "1";
+    var string = " ";
+        for (var i = 0; i < number.length; i++) {
+            if (i % 2 === 0) {
+                string += "1";
+            } else if (i % 2 !== 0) {
+                string += "0";
+            }
         }
-        else if (i % 2 !== 0) {
-            result += "0";
-        }
-    }
-    return result;
+    return string;
 }
 
-// do something
-var newNumbers = 5;
-var numbers = 6;
-var numberTen = 10;
-console.log(stringy(newNumbers));
-console.log(stringy(numbers));
-console.log(stringy(numberTen));
+console.log(stringy(number));
 
-// equals(stringy(5), "10101");
-// equals(stringy(6), "101010");
-// equals(stringy(10), "1010101010");
+var bigNumber = 6;
+console.log(stringy(bigNumber));
+
+// function stringy(number) {
+//     var result = "";
+//     for (var i = 0; i < number; i++) {
+//         if (i % 2 === 0) {
+//             result += "1";
+//         }
+//         else if (i % 2 !== 0) {
+//             result += "0";
+//         }
+//     }
+//     return result;
+// }
+
+// // do something
+// var newNumbers = 5;
+// var numbers = 6;
+// var numberTen = 10;
+// console.log(stringy(newNumbers));
+// console.log(stringy(numbers));
+// console.log(stringy(numberTen));
+
+// // equals(stringy(5), "10101");
+// // equals(stringy(6), "101010");
+// // equals(stringy(10), "1010101010");
 
