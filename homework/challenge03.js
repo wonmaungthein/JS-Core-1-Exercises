@@ -17,16 +17,16 @@ Should return:
 */
 
 function findNeedle(haystack) {
-    var result = "Sorry,it didn't exist";
+    var result = "Found the needle at position " + i;
     for (var i = 0; i < haystack.length; i++) {
         if (haystack[i] === "needle") {
-            result = i;
+            result = "Found the needle at position " + i;
         }
     }
     return result;
 }
 
-var myHayStack = ['hay', 'rabbit', 'neppedle', 'uuiooo', 'hat'];
+var myHayStack = ['hay', 'rabbit', 'needle', 'uuiooo', 'hat'];
 console.log(findNeedle(myHayStack));
 
 
