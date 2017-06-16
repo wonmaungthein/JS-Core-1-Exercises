@@ -1,14 +1,14 @@
 
-// function myName() {
-//     console.log ("Won")
-//     console.log ("Maung")
-//     console.log ("Thein")
-// }
+function myName() {
+    console.log ("Won")
+    console.log ("Maung")
+    console.log ("Thein")
+}
 
-// function printName(name, age, occupation) {
-//     console.log("My name is " + name + "," + age + " " + "years " + "old" + " and I am a " + occupation + ".");
-// }
-// printName("David", 30, "student");
+function printName(name, age, occupation) {
+    console.log("My name is " + name + "," + age + " " + "years " + "old" + " and I am a " + occupation + ".");
+}
+printName("David", 30, "student");
 
 // parameters (arguments) - data used by the function
 function aboutMe(name,age,occupation,place) {
@@ -20,10 +20,4 @@ function aboutMe(name,age,occupation,place) {
 // passing it the data it needs
 aboutMe("Won Maung Thein", 33, "student", "Edinburgh");
 
-
-// myName();
-
-// for (var i=1  ; i<= 3; i=i+1) {
-//     myName();
-// }
 
