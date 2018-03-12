@@ -2,7 +2,7 @@
 
 // Did you know you can also have an array of objects? We've created one for you here. Loop through the array, and for each object, `console.log()` out the sentence:
 
-"Hi, my name is {firstName} {lastName}. I am {age} years old, and work as a {occupation}."
+"Hi, my name is {firstName} {lastName}. I am {age} years old, and work as a {occupation}.";
 
 //   {
 //     firstName: "Zadie",
@@ -26,16 +26,15 @@
 // */
 
 // // console.log("Famous Writers");
-// console.log(" Hi, my name is " + writers[0].firstName + " " + writers[0].lastName + ". I am " + writers[0].age 
+// console.log(" Hi, my name is " + writers[0].firstName + " " + writers[0].lastName + ". I am " + writers[0].age
 // + " years old, and work as a " + writers[0].occupation + ".");
 
 // for (i=0; i<writers.length; i++) {
 //     if (writers[i].alive === true) {
-//     console.log(" Hi, my name is " + writers[i].firstName + " " + writers[i].lastName + ". I am " + writers[i].age 
+//     console.log(" Hi, my name is " + writers[i].firstName + " " + writers[i].lastName + ". I am " + writers[i].age
 // + " years old, and work as a " + writers[i].occupation + ".");
 //     }
 // }
-
 
 var writers = [
   {
@@ -65,13 +64,29 @@ var writers = [
     occupation: "writer",
     age: 64,
     alive: true
-  },
+  }
 ];
 
-// This is for loop and printing only alive. 
+// This is for loop and printing only alive.
 for (i = 0; i < writers.length; i++) {
   if (writers[i].alive === true) {
     console.log(" Hi, my name is " + writers[i].firstName + " " + writers[i].lastName + ". I am " + writers[i].age
       + " years old, and work as a " + writers[i].occupation + ".");
   }
 }
+
+
+const eachWriter = writers.map((writer, i) => {
+  
+  const message = `Hi, my name is ${writers[i].firstName} ${
+    writers[i].lastName
+  }. I am ${writers[i].age} years old, and work as a ${writers[i].occupation}.
+  `;
+  return message;
+  return aliveWriters;
+});
+
+console.log(eachWriter.join(" "));
+
+
+// DONE;
