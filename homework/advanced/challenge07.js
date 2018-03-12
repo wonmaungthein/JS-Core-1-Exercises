@@ -21,3 +21,26 @@ The function should return how much each friend should contribute to the bill.
 
 **Extra credit**: How much should each friend pay if they want to add a 10% tip?
 */
+
+var bill = [7.99, 6.99, 14.99, 4.99];
+var numberOfFriends = 4;
+
+function totalCost(bill) {
+  return bill.reduce(function(a, b) {
+    return a + b;
+  });
+}
+console.log(`This is the total cost of the bill ${totalCost(bill)} .`);
+
+function perEach(totalCost, numberOfFriends) {
+    const totalCostwithBill = totalCost(bill);
+  return totalCostwithBill / numberOfFriends;
+}
+console.log(
+  `Each person has to give ${perEach(
+    totalCost,
+    numberOfFriends
+  )} for the bill without tips`
+);
+
+// DONE;
