@@ -21,3 +21,7 @@ Counting to 15 should look like this:
 'FizzBuzz'
 
 */
+
+for (var i = 0; i < 100; i++) {
+  return i;
+}
